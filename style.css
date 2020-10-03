@@ -27,13 +27,23 @@
   }
 
   .adventure-page{
-    background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(adventure.jpg) ;
+  background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(adventure.jpg) ;
     height: 100%;
     background-position: center;
      background-repeat:non repeat ;
      background-size: cover;
 
+
    
+  }
+  .friends-page
+  {
+    background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(friends4.jpg) ;
+    height: 100%;
+    background-position: center;
+     background-repeat:non repeat ;
+     background-size: cover;
+
   }
   .solo{
     background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(background.jpg) ;
@@ -50,6 +60,12 @@
      background-repeat:non repeat ;
      background-size: cover;
     }
+     
+      
+
+    
+     
+    
 
 
   
@@ -58,7 +74,7 @@
     
     font-family: Arial, Helvetica, sans-serif;
     border-start-end-radius:0;
-    float: center;
+    float: none;
     width:auto;
     height:auto;
     opacity: .9;
